@@ -1,3 +1,23 @@
 #title {
   color: #333333
 }
+
+/* Sidebar Links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Sidebar Active/Current Link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Sidebar Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
