@@ -1,3 +1,7 @@
+body {
+	background-color: #c1c9bd
+}
+
 #title {
   color: #333333
 }
@@ -9,7 +13,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
+  background-color: #5d7e5d;
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
 }
