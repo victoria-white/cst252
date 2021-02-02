@@ -1,10 +1,14 @@
 body {
-	background-color: #c1c9bd
+	background-color: #c1c9bd;
+	font-family: Tahoma, sans-serif;
 }
 
 #title {
-  color: #333333
+  color: #333333;
 }
+
+/*Sidebar Code From W3 Schools https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+
 /* Sidebar Menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
