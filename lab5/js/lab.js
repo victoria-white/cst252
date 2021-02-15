@@ -1,3 +1,5 @@
+console.log("Starting JavaScript");
+
 var carMake = "Prius";
 var carModel = "Toyota";
 var carColor = "Gray";
