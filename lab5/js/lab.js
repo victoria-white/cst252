@@ -8,7 +8,7 @@ var currentYear = 2021;
 var carAge = currentYear - carYear;
 var ownIt = "true";
 
-document.write("Make: " + carMake + "<br>");
+document.writeIn("Make: " + carMake + "<br>");
 document.writeIn("Model: " + carModel + "<br>");
 document.writeIn("Color: " + carColor + "<br>");
 document.writeIn("Year: " + carYear + "<br>");
