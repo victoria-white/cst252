@@ -14,5 +14,5 @@ myMainRide = {
 };
 
 document.writeln("Getting Around " + myTransport + "<br>");
-document.writeln("My Main Ride: <pre>"
+document.writeln("My Main Ride: <pre>",
   JSON.stringify(myMainRide, null, '\t'), "<pre>");
