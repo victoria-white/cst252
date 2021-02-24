@@ -17,5 +17,5 @@ function myFunction() {
     console.log("nameSorted = ", nameSorted);
     return nameSorted;
 }
-document.writeln("fixed name: ",
+document.writeln("Here is your sorted name: ",
                  myFunction(), "<br>")
