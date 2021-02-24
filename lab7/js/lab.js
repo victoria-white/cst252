@@ -4,8 +4,8 @@
 //License: Public Domain
 
 function myFunction() {
-    var userName = window.prompt("hi, what is your name?");
-    console.log("username = ", username);
+    var userName = window.prompt("Hi, Please enter your name so it can be sorted!");
+    console.log("userName = ", userName);
     //split string into array
     var nameArray = userName.split('');
     console.log("nameArray = ", nameArray);
