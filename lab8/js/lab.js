@@ -1,4 +1,4 @@
 //Lab 7: Functions
-//Author: Victoria White
-//Created: Feb. 23 2021
+//Author: Victoria White <vwhite@csumb.edu>
+//Created: Feb. 27 2021
 //License: Public Domain
