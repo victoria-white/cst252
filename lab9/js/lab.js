@@ -4,7 +4,7 @@
 //License: Public Domain
 
 oldElement = document.getElementById("img");
-newElement = document.createElementById("div");
+newElement = document.createElement("div");
 oldElement.appendChild(newElement);
 newElement.id = "Cooper";
 newElement.innerHTML = "a chunky cat.";
