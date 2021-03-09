@@ -26,4 +26,4 @@ myButton.addEventListener("click", sortingHat() {
   var house = sortingHat(name);
   newText = "<p>The Sorting Hat has sorted you into " + house + "</p>";
   document.getElementById("output").innerHTML = newText;
-})
+});
