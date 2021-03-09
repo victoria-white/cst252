@@ -20,6 +20,10 @@ function sortingHat(name) {
   }
 }
 
-var name = prompt("name");
-var house = sortingHat(name);
-console.log(house);
+var myButton = document.getElementById("button");
+myButton.addEventListener("click", sortingHat(){
+  var name =document.getElementById("input").value;
+  var house = sortingHat(name);
+  newText = "<p>The Sorting Hat has sorted you into " + house + "</p>";
+  document.getElementById("output").innerHTML = newText;
+})
