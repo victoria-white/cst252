@@ -42,7 +42,36 @@
 		<p></p>
 
 		<h3>Results</h3>
-		<p></p>
+		<div>
+			Where should we stop? <input type="number" min="0" max="1000" id="max"><br>
+			Which factors should print what?<br>
+			<table>
+				<tr>
+					<th>Factor</th>
+					<th>Prints What?</th>
+				</tr>
+				<tr>
+					<td><input type="number" min="0" max="23" id="num0"></td>
+					<td><input type="text" id="text0"></td>
+				</tr>
+				<tr>
+					<td><input type="number" min="0" max="23" id="num1"></td>
+					<td><input type="text" id="text1"></td>
+				</tr>
+				<tr>
+					<td><input type="number" min="0" max="23" id="num2"></td>
+					<td><input type="text" id="text2"></td>
+				</tr>
+				<tr>
+					<td><input type="number" min="0" max="23" id="num3"></td>
+					<td><input type="text" id="text3"></td>
+				</tr>
+			</table>
+			<button id="submit">Run</button>
+		</div>
+			<h4>Output</h4>
+			<div id="output"></div>
+					
 	<!--Linkbox Code from Wesley Modes on iLearn-->
 	<div class="linkbox">
 		<a class="sourcelink" href="js/lab.js" target="source">JavaScript Source &gt;&gt;</a>
