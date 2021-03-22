@@ -29,7 +29,7 @@ function outputToPage(str) {
   outputEl.appendChild(newEl);
 }
 
-unction fizzBuzzBoom(maxNums, factorObj) {
+function fizzBuzzBoom(maxNums, factorObj) {
     for (var num=0; num<maxNums; num++) {
         var outputStr = "";
         for (var factor in factorObj) {
