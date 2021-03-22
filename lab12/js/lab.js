@@ -8,7 +8,7 @@ maxFactors = 4;
 outputEl = document.getElementById("output");
 
 function getFactorObj() {
-  var = factorObj {};
+  var factorObj = {};
   for (var factor = 0; factor<maxFactors; factor++) {
     numId = "num" + factor;
     textId = "text" + factor;
@@ -60,7 +60,7 @@ document.getElementById("submit").addEventListener("click", function() {
         reportError("You must provide at least one factor and text");
         return;
     }
-    
+
     outputEl.innerHTML = "";
     fizzBuzzBoom(max, factorObj);
     outputEl.classList.add("cols");
