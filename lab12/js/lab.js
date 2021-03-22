@@ -3,7 +3,7 @@
 //Created: Mar. 10 2021
 //License: Public Domain
 
-//Javascript code courtesy of Wes Modes on iLearn
+//Javascript code courtesy of Wes Modes on iLearn and GitHub
 maxFactors = 4;
 
 outputEl = document.getElementById("output");
