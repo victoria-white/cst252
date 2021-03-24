@@ -15,4 +15,4 @@ DreamCar.prototype.name = function() {
 };
 
 var myDreamCar = new DreamCar("Toyota", "Tacoma", 2010, "Green");
-document.getElementById("demo").innerHTML = "My Dream Car is a " myDreamCar.year() + myDreamCar.name();
+document.getElementById("demo").innerHTML = "My Dream Car is a " + myDreamCar.name();
