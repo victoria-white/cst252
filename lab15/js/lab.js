@@ -1,4 +1,4 @@
-//Lab 15: ???
+//Lab 15: Object Oriented Design
 //Author: Victoria White <vwhite@csumb.edu>
 //Created: Mar. 24 2021
 //License: Public Domain
