@@ -15,7 +15,9 @@ class Vehicle {
   info() {
     return this.color + " " + this.year + " " + this.make + " " +  this.model + " with " +  this.extras + " called " + this.name;
     }
-  }
+}
+
+
 
   var vehicles = [];
 
