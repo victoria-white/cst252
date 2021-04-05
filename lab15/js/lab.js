@@ -27,6 +27,6 @@ class Vehicle {
   outputEl = document.getElementById("output");
   for (var i = 0; i<vehicles.length; i++) {
     var newEl = document.createElement("li");
-    newEl.innerText = vheicles[i].info();
+    newEl.innerText = vehicles[i].info();
     outputEl.appendChild(newEl);
   }
