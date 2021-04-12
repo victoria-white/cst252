@@ -16,7 +16,7 @@ $("#thing1-button").click(function(){
 })
 
 $("#submit").click(function(){
-  var = fullname = $("#fullname").val();
+  var fullname = $("#fullname").val();
   $("replace").html(fullname + "'s");
   $("#thing1-button").html(fullname + " 1");
   $("#thing2-button").html(fullname + " 2");
