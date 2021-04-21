@@ -5,7 +5,7 @@
 
 URL = "https://api.whatdoestrumpthink.com/api/v1/quotes/random"
 
-$("#action").click(function(){
+$("#activate").click(function(){
   $.ajax({
     url: URL,
     type: "GET",
