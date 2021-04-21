@@ -12,6 +12,6 @@ $("#activate").click(function(){
   })
   .done(function(data) {
     console.log(data);
-    $("output").append("<p>The smartest man in the room says: <b>" + data.message);
+    $("#output").append("<p>The smartest man in the room says: <b>" + data.message);
   })
 });
